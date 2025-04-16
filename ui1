@@ -100,7 +100,7 @@ function CreateGUiOpen()
 	MODILEMAGE.BackgroundTransparency = 1.000
 	MODILEMAGE.BorderSizePixel = 0
 	MODILEMAGE.Size = UDim2.new(0, 50, 0, 50)
-	MODILEMAGE.Image = "rbxassetid://13990972098"
+	MODILEMAGE.Image = "rbxassetid://125474673813394"
 end
 
 function Library:CreateWindow(name)
@@ -252,7 +252,7 @@ function Library:CreateWindow(name)
 	Logo.BorderSizePixel = 0
 	Logo.Position = UDim2.new(0, 0, -0.0269238297, 0)
 	Logo.Size = UDim2.new(0, 38, 0, 38)
-	Logo.Image = "rbxassetid://13990972098"
+	Logo.Image = "rbxassetid://125474673813394"
 
 	TabContainer.Name = "TabContainer"
 	TabContainer.Parent = Main
