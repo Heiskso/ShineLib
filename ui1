@@ -100,7 +100,7 @@ function CreateGUiOpen()
 	MODILEMAGE.BackgroundTransparency = 1.000
 	MODILEMAGE.BorderSizePixel = 0
 	MODILEMAGE.Size = UDim2.new(0, 50, 0, 50)
-	MODILEMAGE.Image = "rbxassetid://73543977071374"
+	MODILEMAGE.Image = "rbxassetid://"
 end
 
 function Library:CreateWindow(name)
