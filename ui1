@@ -101,6 +101,10 @@ function CreateGUiOpen()
 	MODILEMAGE.BorderSizePixel = 0
 	MODILEMAGE.Size = UDim2.new(0, 50, 0, 50)
 	MODILEMAGE.Image = "rbxassetid://73543977071374"
+
+	local MODILEMAGECorner = Instance.new("UICorner")
+	MODILEMAGECorner.CornerRadius = UDim.new(1, 0) -- Bo góc tròn hoàn toàn
+	MODILEMAGECorner.Parent = MODILEMAGE
 end
 
 function Library:CreateWindow(name)
